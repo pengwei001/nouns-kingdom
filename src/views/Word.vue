@@ -1,7 +1,8 @@
 <template>
   <div class="word">
     <div>
-      <img :src="getImgUrl()" class="image-container" />
+      <h1>{{ title }}</h1>
+      <img :src="getImgUrl()" />
       <div class="words-container">
         <div v-for="(key, value) in words" :key="key" class="word-container">
           {{ value }} : {{ key }}
@@ -18,7 +19,8 @@ export default {
   name: "Word",
   data() {
     return {
-      words: []
+      words: [],
+      title: this.$route.params.id
     };
   },
   created() {
@@ -35,7 +37,7 @@ export default {
       const imageName = curCategory + "_" + name;
 
       const imgUrl = require.context("../assets", false, /\.png$/);
-      return imgUrl("./" + imageName + ".png");
+      return imgUrl("./" + imageName + "_with_words.png");
     },
     onCardChange(name) {
       console.log("card: ", name);
@@ -55,9 +57,5 @@ export default {
 }
 .word-container {
   min-width: 200px;
-}
-.image-container {
-  height: 600px;
-  width: 573px;
 }
 </style>
