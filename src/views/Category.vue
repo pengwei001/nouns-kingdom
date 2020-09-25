@@ -72,6 +72,12 @@ export default {
 .image-container:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 280px) {
+  .image-container {
+    height: 100%;
+    width: 100%;
+  }
+}
 .card-font-container {
   font-size: 2rem;
   font-weight: 600;
