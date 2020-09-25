@@ -48,12 +48,25 @@ export default {
 </script>
 
 <style>
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .words-container {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
+}
+@media only screen and (max-width: 600px) {
+  .words-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 .word-container {
   min-width: 200px;

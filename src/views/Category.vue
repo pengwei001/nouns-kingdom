@@ -51,10 +51,19 @@ export default {
 <style>
 .category-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
+}
+@media only screen and (max-width: 1650px) {
+  .categories-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 .image-container {
   height: 600px;
