@@ -66,8 +66,8 @@ export default {
   }
 }
 .image-container {
-  height: 600px;
-  width: 573px;
+  height: 300px;
+  width: 280px;
 }
 .image-container:hover {
   cursor: pointer;
