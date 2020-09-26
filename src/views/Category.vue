@@ -77,8 +77,12 @@ export default {
   }
 }
 .card-font-container {
-  font-size: 2vw;
   font-weight: 600;
+}
+@media only screen and (min-width: 280px) {
+  .card-font-container {
+    font-size: 2vw;
+  }
 }
 .card-font-container:hover {
   cursor: pointer;

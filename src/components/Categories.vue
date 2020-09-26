@@ -73,8 +73,12 @@ export default {
 }
 
 .category-font-container {
-  font-size: 2vw;
   font-weight: 600;
+}
+@media only screen and (min-width: 280px) {
+  .category-font-container {
+    font-size: 2vw;
+  }
 }
 
 .category-font-container:hover {
