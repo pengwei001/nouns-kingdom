@@ -80,7 +80,11 @@ export default {
     font-size: 2vw;
   }
 }
-
+@media only screen and (max-width: 280px) {
+  .category-font-container {
+    font-size: 5vw;
+  }
+}
 .category-font-container:hover {
   cursor: pointer;
 }
