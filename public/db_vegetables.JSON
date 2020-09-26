@@ -1,0 +1,20 @@
+{
+    "carrot": {
+        "petiole": "叶柄",
+        "stem": "茎",
+        "storage root": "根",
+        "root hair": "根毛",
+        "lateral root": "侧部根",
+        "cortex": "表皮",
+        "phloem": "韧皮",
+        "xylem": "木质部"
+    },
+    "corn": {
+        "tassel": "穗",
+        "stalk": "茎",
+        "ear": "耳",
+        "leaf": "叶子",
+        "corn seed": "玉米粒",
+        "silk": "丝"
+    }
+}
