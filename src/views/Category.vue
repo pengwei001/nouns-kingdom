@@ -84,9 +84,9 @@ export default {
     font-size: 2vw;
   }
 }
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 750px) {
   .card-font-container {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 .card-font-container:hover {
