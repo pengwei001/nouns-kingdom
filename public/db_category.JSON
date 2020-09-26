@@ -2,7 +2,7 @@
   "category": [
     "animals",
     "foods",
-    "tools",
+    "fruit",
     "vegetables",
     "drinks",
     "plants", 
@@ -11,6 +11,7 @@
     "transportation",
     "kitchen",
     "electronics",
-    "furniture"
+    "furniture",
+    "tools"
   ]
 }

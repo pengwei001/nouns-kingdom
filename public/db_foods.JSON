@@ -1,3 +1,10 @@
 {
-    
+    "pizza": {
+        "veggies": "蔬菜",
+        "cheese": "芝士",
+        "sauce": "调味汁",
+        "mushroom": "蘑菇",
+        "oliva": "橄榄",
+        "pepperoni": "腊香肠"
+    }
 }

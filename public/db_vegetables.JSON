@@ -16,5 +16,12 @@
         "leaf": "叶子",
         "corn seed": "玉米粒",
         "silk": "丝"
+    },
+    "mushroom": {
+        "cap": "帽",
+        "gills": "肋片",
+        "stem": "茎",
+        "scales": "蘑菇菌屑",
+        "volva": "菌托"
     }
 }
