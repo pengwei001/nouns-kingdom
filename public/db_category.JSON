@@ -1,3 +1,16 @@
 {
-  "category": ["animals", "foods", "tools", "animals", "foods", "tools","animals", "foods", "tools"]
+  "category": [
+    "animals",
+    "foods",
+    "tools",
+    "vegetables",
+    "drinks",
+    "plants", 
+    "flowers",
+    "clothes",
+    "transportation",
+    "kitchen",
+    "electronics",
+    "furniture"
+  ]
 }

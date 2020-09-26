@@ -31,14 +31,12 @@ export default {
   methods: {
     getImgUrl(name) {
       const imgUrl = require.context("../assets/category", false, /\.png$/);
-      console.log("category imge url: ", imgUrl);
       return imgUrl("./" + name + ".png");
     },
     capitalize(name) {
       return name.charAt(0).toUpperCase() + name.slice(1);
     },
     onCategoryChange(category) {
-      console.log("category: ", category);
       this.$router.push(category);
     }
   },
@@ -71,9 +69,15 @@ export default {
 .home-image-container:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 280px) {
+  .home-image-container {
+    height: 100%;
+    width: 100%;
+  }
+}
 
 .category-font-container {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
 }
 

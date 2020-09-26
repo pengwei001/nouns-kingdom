@@ -2,8 +2,9 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Category from "../views/Category.vue";
 import Word from "../views/Word.vue";
+import CategoryJSON from "../../public/db_category.JSON";
 
-const categories = ["animals", "foods", "tools"];
+const categories = CategoryJSON.category;
 let routes = [
   {
     path: "/",
@@ -35,8 +36,6 @@ categories.forEach(item => {
   routes.push(newRoute);
   routes.push(newCardRoute);
 });
-
-console.log("router: ", routes);
 
 const router = createRouter({
   history: createWebHashHistory(),

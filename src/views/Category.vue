@@ -10,6 +10,7 @@
         {{ word }}
       </div>
     </div>
+    <div v-if="wordsInCategory.length === 0">Will add more cards here soon</div>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ export default {
   created() {
     const curCategory = this.$route.path.split("/")[1];
     const curCard = this.$route.params.id;
+    console.log("category: ", curCategory, " : ", curCard);
     NKHttpSvc.WordsOfCategory(curCategory, curCard)
       .then(res => res.json())
       .then(data => {
@@ -79,7 +81,7 @@ export default {
   }
 }
 .card-font-container {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
 }
 .card-font-container:hover {
