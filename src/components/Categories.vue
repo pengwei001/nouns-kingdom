@@ -55,11 +55,7 @@ export default {
 
 @media only screen and (max-width: 800px) {
   .categories-container {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 15%;
-    margin-right: 15%;
   }
 }
 .home-image-container {

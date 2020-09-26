@@ -59,12 +59,8 @@ export default {
   margin-right: 15%;
 }
 @media only screen and (max-width: 1650px) {
-  .categories-container {
-    display: flex;
+  .category-container {
     justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 15%;
-    margin-right: 15%;
   }
 }
 .image-container {

@@ -61,11 +61,7 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .words-container {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 15%;
-    margin-right: 15%;
   }
 }
 .word-container {
