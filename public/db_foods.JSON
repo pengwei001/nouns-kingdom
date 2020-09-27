@@ -6,5 +6,20 @@
         "mushroom": "蘑菇",
         "oliva": "橄榄",
         "pepperoni": "腊香肠"
+    },
+    "hotdog": {
+        "tomato": "西红柿",
+        "sauce": "调料",
+        "bun": "面包",
+        "pickle": "酸黄瓜",
+        "sausage": "香肠"
+    },
+    "burger": {
+        "bun":"面包",
+        "lettuce": "生菜",
+        "onion": "洋葱",
+        "cheese": "芝士",
+        "cucumber": "黄瓜",
+        "meat": "肉饼"
     }
 }
