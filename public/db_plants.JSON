@@ -6,5 +6,18 @@
         "stalk": "树茎",
         "branch": "分支",
         "trunk": "树干"
+    },
+    "wheat": {
+        "beard": "麦芒",
+        "head": "麦穗",
+        "kernel": "麦粒",
+        "stem": "麦秆",
+        "leaves": "麦叶"
+    },
+    "rice": {
+        "seeds": "种子",
+        "panicle": "稻穗",
+        "leaves": "叶子",
+        "stem": "稻杆"
     }
 }
