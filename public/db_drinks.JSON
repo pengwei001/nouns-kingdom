@@ -6,7 +6,10 @@
         "coffee beans": "咖啡豆"
     },
     "tea cup": {
-
+        "cup": "杯子",
+        "handler": "把手",
+        "leaves": "茶叶",
+        "saucer": "茶托"
     },
     "teapot": {
         "knob": "球形把手",
