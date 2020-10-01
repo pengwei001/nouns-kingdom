@@ -1,5 +1,6 @@
 <template>
-  <div class="category-container">
+  <PulseLoader v-if="isLoading"></PulseLoader>
+  <div v-else class="category-container">
     <div v-for="word in wordsInCategory" :key="word">
       <img
         :src="getImgUrl(word)"
@@ -16,21 +17,31 @@
 
 <script>
 import { NKHttpSvc } from "../services/httpService.js";
+import PulseLoader from "../components/PulseLoader.vue";
 
 export default {
   name: "Category",
   data() {
     return {
+      isLoading: false,
       wordsInCategory: []
     };
   },
+  components: {
+    PulseLoader
+  },
   created() {
+    this.isLoading = true;
     const curCategory = this.$route.path.split("/")[1];
     const curCard = this.$route.params.id;
     NKHttpSvc.WordsOfCategory(curCategory, curCard)
       .then(res => res.json())
       .then(data => {
         this.wordsInCategory = Object.keys(data);
+        this.isLoading = false;
+      })
+      .catch(() => {
+        this.isLoading = false;
       });
   },
   methods: {

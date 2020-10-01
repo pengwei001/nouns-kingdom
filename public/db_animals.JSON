@@ -51,5 +51,16 @@
         "tail":"尾巴",
         "body":"身体",
         "hoof":"蹄子"
+    },
+    "fish": {
+        "scales": "鱼鳞",
+        "eyes": "鱼眼",
+        "nostril": "鼻孔",
+        "mouth": "嘴巴",
+        "gill": "鳃",
+        "dorsal fin": "背鳍",
+        "caudal fin": "尾鳍",
+        "pelvic fin": "腹鳍",
+        "pectoral fin": "胸鳍"
     }
 }
