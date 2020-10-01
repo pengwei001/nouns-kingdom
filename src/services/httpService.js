@@ -6,8 +6,6 @@ class HttpServiceClient {
 
   WordsOfCard(category, card) {
     const dictionay = "./db_" + category + ".JSON";
-    console.log("Needs to get data from dictionary: ", dictionay);
-    console.log(category);
     return fetch(dictionay)
       .then(res => res.json())
       .then(data => data[card]);

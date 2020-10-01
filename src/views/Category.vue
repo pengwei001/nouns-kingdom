@@ -28,17 +28,14 @@ export default {
   created() {
     const curCategory = this.$route.path.split("/")[1];
     const curCard = this.$route.params.id;
-    console.log("category: ", curCategory, " : ", curCard);
     NKHttpSvc.WordsOfCategory(curCategory, curCard)
       .then(res => res.json())
       .then(data => {
-        console.log("category data!!: ", data);
         this.wordsInCategory = Object.keys(data);
       });
   },
   methods: {
     getImgUrl(name) {
-      console.log("route for category: ", this.$route);
       const imageName = this.$route.name + "_" + name;
       const imgUrl = require.context("../assets/", false, /\.png$/);
       return imgUrl("./" + imageName + ".png");

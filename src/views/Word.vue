@@ -38,14 +38,9 @@ export default {
       const imageName = curCategory + "_" + name;
 
       const imgUrl = require.context("../assets", false, /\.png$/);
-      console.log("!!!!", imgUrl("./" + imageName + "_with_words.png"));
-      if (!imgUrl("./" + imageName + "_with_words.png")) {
-        console.log("cant find image");
-      }
       return imgUrl("./" + imageName + "_with_words.png");
     },
     onCardChange(name) {
-      console.log("card: ", name);
       this.$router.push(name);
     }
   }
