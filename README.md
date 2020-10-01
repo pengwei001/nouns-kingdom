@@ -80,3 +80,10 @@ You also need to update file "nouns-kingdom\public\db_animals.JSON".
     },
 ```
 You can now start the project and see the cards you just added. It will be showed on screen automatically.
+
+
+---
+Image editing software:
+I use windows 10, and install GIMP to add words to a picture.
+when you create a new image, choose tempate: 1280 * 720 px. Font size: 38px
+![Text](./src/assets/readme_gimp.png)
