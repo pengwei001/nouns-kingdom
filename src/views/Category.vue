@@ -21,7 +21,6 @@ export default {
   name: "Category",
   data() {
     return {
-      // get animals use the $route.name as key in dictionay.
       wordsInCategory: []
     };
   },
@@ -47,7 +46,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .category-container {
   display: flex;
   justify-content: center;
