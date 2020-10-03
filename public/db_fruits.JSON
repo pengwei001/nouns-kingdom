@@ -21,5 +21,12 @@
         "skin": "果皮",
         "flesh":"果肉",
         "seed":"种子"
+    },
+    "peach": {
+        "leaf":"叶子",
+        "peduncle": "果柄",
+        "mesocarp":"中果皮",
+        "exocarp":"外果皮",
+        "seed coat": "种壳"
     }
 }
