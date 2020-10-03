@@ -1,0 +1,22 @@
+{
+    "car": {
+        "roof": "车顶",
+        "windshield": "挡风玻璃",
+        "headlight": "前车灯",
+        "bumpers": "保险杠",
+        "handle": "门把手",
+        "door": "车门",
+        "wheel": "车轮",
+        "tire": "轮胎"
+    },
+    "bike": {
+        "saddle": "车座",
+        "frame": "车框",
+        "handlebars": "车把手",
+        "fork": "分叉",
+        "hub": "支撑中心",
+        "tire": "车轮",
+        "pedal": "脚蹬",
+        "rear rack": "行李架"
+    }
+}
