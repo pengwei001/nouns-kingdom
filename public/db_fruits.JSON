@@ -15,5 +15,11 @@
         "carpel": "心皮",
         "seed": "种子",
         "flesh": "果肉"
+    },
+    "apple": {
+        "stem": "茎",
+        "skin": "果皮",
+        "flesh":"果肉",
+        "seed":"种子"
     }
 }
