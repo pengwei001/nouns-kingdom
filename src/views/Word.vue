@@ -28,7 +28,13 @@ export default {
     const curCategory = this.$route.path.split("/")[1];
     const curCard = this.$route.params.id;
     NKHttpSvc.WordsOfCard(curCategory, curCard).then(
-      data => (this.words = data)
+      data => {
+        this.words = Object.keys(data)
+          .sort()
+          .reduce((r, k) => ((r[k] = data[k]), r), {});
+      }
+      // https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key
+      // const sortObject = o => Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {})
     );
   },
   methods: {
