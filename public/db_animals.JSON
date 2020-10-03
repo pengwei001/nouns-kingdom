@@ -62,5 +62,17 @@
         "caudal fin": "尾鳍",
         "pelvic fin": "腹鳍",
         "pectoral fin": "胸鳍"
+    },
+    "donkey": {
+        "ear": "耳朵",
+        "eye": "眼睛",
+        "nostril":"鼻孔",
+        "mouth":"嘴巴",
+        "leg":"腿",
+        "mane": "鬃毛",
+        "back": "背部",
+        "tail":"尾巴",
+        "belly": "腹部",
+        "hoof":"蹄子"
     }
 }
