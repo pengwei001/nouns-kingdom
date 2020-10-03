@@ -87,3 +87,6 @@ Image editing software:
 I use windows 10, and install GIMP to add words to a picture.
 when you create a new image, choose tempate: 1280 * 720 px. Font size: 38px
 ![Text](./src/assets/readme_gimp.png)
+
+
+Please also keep a copy of the file as .xcf format, so you can update the details later. (in case you find any typo in the png file, you can update it easily in .xcf).
